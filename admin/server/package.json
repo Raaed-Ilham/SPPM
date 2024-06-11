@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "User server-side",
+  "description": "Admin server-side",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -11,7 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "crypto": "^1.0.1",
     "express": "^4.19.2",
-    "mysql": "^2.18.1"
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "web-vitals": "^4.1.1"
   }
 }

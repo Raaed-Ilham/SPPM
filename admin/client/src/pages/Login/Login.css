@@ -1,0 +1,91 @@
+body {
+    background-color: #282c34;
+}
+
+.App-header {
+    background-color: #000;
+    padding: 12px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-header img {
+    width: 50px;
+    margin-right: auto;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    background-color: #f0f0f0;
+    padding: 25px 0;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-container h1{
+    margin: 0;
+    }
+
+.login-card h2 {
+    margin-bottom: 20px;
+}
+
+.login-container p{
+    margin: 0;
+    color: #555;
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+
+p.login_err{
+    color: #d9534f;
+    margin-bottom: 12px;
+}
+
+.form-group{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.form-group label{
+    margin: 0;
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+
+.form-group input{
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 8px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group button{
+    display: flex;
+    width: 100%;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 30px;
+    padding: 10px 16px;
+    margin-top: 24px;
+    background-color: black;
+    justify-content: center;
+}
+
+.form-group button:hover{
+    background-color: #282c34;
+}
